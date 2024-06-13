@@ -1,0 +1,118 @@
+@keyframes animate {
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background: #b348e5;
+  overflow: hidden;
+  z-index: -20;
+}
+
+.background-layer2 {
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+  z-index: -10;
+}
+
+
+
+
+
+
+.background div {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 19s linear infinite;
+}
+
+
+
+
+.background div:nth-child(0) {
+  left: 23%;
+  width: 112px;
+  height: 112px;
+  bottom: -112px;
+  animation-delay: 1s;
+}
+.background div:nth-child(1) {
+  left: 40%;
+  width: 117px;
+  height: 117px;
+  bottom: -117px;
+  animation-delay: 1s;
+}
+.background div:nth-child(2) {
+  left: 67%;
+  width: 170px;
+  height: 170px;
+  bottom: -170px;
+  animation-delay: 6s;
+}
+.background div:nth-child(3) {
+  left: 6%;
+  width: 132px;
+  height: 132px;
+  bottom: -132px;
+  animation-delay: 6s;
+}
+.background div:nth-child(4) {
+  left: 1%;
+  width: 148px;
+  height: 148px;
+  bottom: -148px;
+  animation-delay: 20s;
+}
+.background div:nth-child(5) {
+  left: 40%;
+  width: 126px;
+  height: 126px;
+  bottom: -126px;
+  animation-delay: 8s;
+}
+.background div:nth-child(6) {
+  left: 64%;
+  width: 101px;
+  height: 101px;
+  bottom: -101px;
+  animation-delay: 20s;
+}
+.background div:nth-child(7) {
+  left: 6%;
+  width: 134px;
+  height: 134px;
+  bottom: -134px;
+  animation-delay: 23s;
+}
+.background div:nth-child(8) {
+  left: 58%;
+  width: 122px;
+  height: 122px;
+  bottom: -122px;
+  animation-delay: 31s;
+}
+.background div:nth-child(9) {
+  left: 51%;
+  width: 106px;
+  height: 106px;
+  bottom: -106px;
+  animation-delay: 6s;
+}
