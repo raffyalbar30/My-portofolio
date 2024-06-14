@@ -3,8 +3,7 @@ import React from 'react';
 const Skills = () => {
     return (
         <>
-        
-       <div className='flex justify-center mt-12 laptop:top-0'>
+       <div className='flex justify-center laptop:top-0 '>
         <div className='cursor-pointer'>
          <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2'>Skills⚒️</p>
          <div className="md:w-32 w-full md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full"></div>

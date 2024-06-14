@@ -1,7 +1,10 @@
 import React from 'react';
-import Skills from '../UI/Skills';
+import Background from '../Fragments/Background';
 import Profil from '../UI/profil';
-import Projects from '../UI/Projects';
+
+
+
+
 
 
 
@@ -9,13 +12,16 @@ const Menu = () => {
     return (
         <> 
            
-          {/* <div className='absolute -z-10'> */}
-           <div className='mt-32 laptop:mt-56'>
-               <Profil></Profil>
-               <Skills></Skills>
-               <Projects></Projects>
-           </div>
-          {/* </div> */}
+        
+           <div className='w-full backdrop-blur-sm laptop:mt-24 mt-24 h-8 laptop:h-36'></div>
+            <div className='laptop:mt-12 pb-8 '>
+                <Profil></Profil>
+            </div>
+            <div className='mt-12'>
+               <Background></Background>
+            </div>
+               
+
             
         </> 
     );
