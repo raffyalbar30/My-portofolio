@@ -17,9 +17,6 @@ const Menu = () => {
             <div className='mt-12'>
                <Background></Background>
             </div>
-               
-
-            
         </> 
     );
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import ContainerCards from '../utilitis/Container-card';
 import ContainProject from '../utilitis/Contain-project';
 
@@ -7,15 +7,15 @@ import ContainProject from '../utilitis/Contain-project';
 const Projects = () => {
     return (
    <>
-        <div className='flex justify-center mt-24'>
+        <div className='flex justify-center mt-24 relative z-20'>
            <div className='cursor-pointer laptop:pt-12 pt-8'>
              <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2 laptop:pb-4'>Projects👨‍💻</p>
               <div className="md:w-32 w-full md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full"></div>
                <div className="md:w-32 w-full md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1"></div>
            </div>
       </div>
-      <div className="grid grid-cols-1 laptop:grid-cols-2 laptop:gap-6 gap-1 p-4 mt-10 group">
-            <div className='w-full place-content-center bg-zinc-950 border border-white/[0.2] rounded-md p-8 '>
+      <div className="grid grid-cols-1 laptop:grid-cols-2 laptop:gap-6 gap-1 p-4 mb-4 mt-10 group ">
+            <div className='w-full place-content-center bg-zinc-950 border border-white/[0.2] rounded-md p-8 laptop:mb-12 tablet:mb-12 mb-8'>
                     <ContainerCards>
                     <img
                             style={{
@@ -52,7 +52,7 @@ const Projects = () => {
             </div>
 
             {/* perintis projects */}
-            <div className='w-full place-content-center bg-zinc-950 border border-white/[0.2] rounded-md p-8  '>
+            <div className='w-full place-content-center bg-zinc-950 border border-white/[0.2] rounded-md p-8 laptop:mb-12 tablet:mb-12 mb-8'>
                     <ContainerCards>
                     <img
                             style={{
@@ -78,15 +78,15 @@ const Projects = () => {
                                   <img src="/public/Icons/sass.svg" alt="" className='w-[50px]' />
                                   <img src="/public/Icons/bootstrap.webp" alt="" className='w-[50px]' />
                                   </div>
-                                  <div className='flex justify-center laptop:justify-normal mt-4'>
-                                      <button className='px-20 py-2 border rounded-md hover:border-purple-500 hover:bg-purple-500 hover:transition-colors hover:duration-75 '>View Detail</button>
-                                  </div>
-                              </div>
+                                    <div className='mt-8'>
+                                      <a href="" className=' border rounded-md px-28 py-2 group transition !text-purple-500 hover:border-purple-500'><span>View Details</span></a>
+                                    </div>
+                                </div>
                     </ContainProject>
             </div>
 
             {/* Raff prompt engginer AI */}
-            <div className='w-full place-content-center bg-zinc-950 border border-white/[0.2] rounded-md p-8  '>
+            <div className='w-full place-content-center bg-zinc-950 border border-white/[0.2] rounded-md p-8 laptop:mb-12 tablet:mb-12 mb-8'>
                     <ContainerCards>
                     <img
                             style={{
@@ -120,7 +120,7 @@ const Projects = () => {
             </div>
 
             {/* CBT SMKN 31 Medan */}
-            <div className='w-full place-content-center bg-zinc-950 border border-white/[0.2] rounded-md p-8  '>
+            <div className='w-full place-content-center bg-zinc-950 border border-white/[0.2] rounded-md p-8 laptop:mb-12 tablet:mb-12 mb-8'>
                     <ContainerCards>
                     <img
                             style={{

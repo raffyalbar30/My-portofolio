@@ -26,7 +26,7 @@ const Profil = () => {
   <>
 
     <div className=' w-full flex justify-center'>
-        <div className='cursor-pointer pb-4 laptop:mt-4 mt-16'>
+        <div className='cursor-pointer pb-4 laptop:mt-4 mt-12'>
          <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2'>Profil 👨‍💻</p>
          <div className="md:w-32 md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full w-auto"></div>
          <div className="md:w-32 md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1 w-auto"></div>
@@ -37,8 +37,8 @@ const Profil = () => {
          </div>
           <div className='flex justify-center laptop:items-center laptop:mt-4 mt-12 z-20'>
                 <div className='laptop:pb-12'>
-                   <h1 className='text-purple-500 laptop:text-4xl text-2xl font-sans pb-2 font-bold laptop:text-left laptop:ml-24 underline underline-offset-4 ml-4'>Introduction</h1>
-                     <p className='text-gray-400 text-justify laptop:px-24 font-sans  laptop:text-xl text-[12px] pr-6 pl-4'>I am a fresh graduate from SMKN 1 BANYUSARI in the Software Engineering Department. 
+                   <h1 className='text-purple-500 laptop:text-4xl tablet:text-4xl text-2xl font-sans pb-2 font-bold laptop:text-left laptop:ml-24 underline underline-offset-4 ml-4'>Introduction</h1>
+                     <p className='text-gray-400 text-justify laptop:px-24 font-sans tablet:text-lg laptop:text-xl text-[12px] pr-6 pl-4'>I am a fresh graduate from SMKN 1 BANYUSARI in the Software Engineering Department. 
                         I have a high interest and talent in the field of front-end web development, mastering various 
                         skills such as <span className='text-white font-semibold'>React Js, Tailwindcss, NextJs,</span> and several other skills in front-end web development to 
                         build and develop user interfaces on websites. <span className='text-white font-semibold'>I have 1 year of experience</span>  as a front-end web developer.
@@ -53,17 +53,17 @@ const Profil = () => {
                                 key={i}
                                 href={item.url}
                                 aria-label={item.label}>
-                                <Icon className='w-8 h-8 hover:scale-125 transition-all' />
+                                <Icon className='w-8 h-8 tablet:h-12 tablet:w-12 hover:scale-125 transition-all' />
                                 </a>
                             )
                             })
                             }
                         </div>
                         <div className='px-4 pt-4 laptop:pt-4 handphone:ml-2 laptop:px-20'>
-                           <button className='laptop:px-20 py-2 rounded-md border handphone:px-24'>💼 Download CV</button>
+                           <button className='laptop:px-20 py-2 tablet:py-4 rounded-md border handphone:px-24'>💼 Download CV</button>
                         </div>
                 </div>
-                <div className='p-4 mr-8 opacity-0 laptop:opacity-100 laptop:static absolute z-10 '>
+                <div className='p-4 mr-8 opacity-0 laptop:opacity-100 laptop:static absolute'>
                         <div className='laptop:w-[350px]'>
                         <ContainerCards>
                             <img src="/public/img/Group2.png"
