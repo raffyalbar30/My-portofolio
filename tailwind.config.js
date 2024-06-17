@@ -7,6 +7,9 @@ module.exports = {
   theme: {
     screens: {
       'handphone' : '375px',
+      'iphone' : '390px',
+      'iphone-xr' : '414px',
+      'iphone-14' : '430px',
       'tablet': '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -18,6 +21,9 @@ module.exports = {
     },
 
     extend: {
+      animation: {
+          'ping-slow' : 'ping 30s '
+      },
       fontFamily: {
         sans: ['Space Mono', 'sans-serif'],
       },

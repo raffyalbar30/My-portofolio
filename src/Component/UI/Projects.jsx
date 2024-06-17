@@ -9,7 +9,7 @@ const Projects = () => {
    <>
         <div className='flex justify-center mt-24 relative z-20'>
            <div className='cursor-pointer laptop:pt-12 pt-8'>
-             <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2 laptop:pb-4'>Projects👨‍💻</p>
+             <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2 laptop:pb-4'>Experince👨‍💻</p>
               <div className="md:w-32 w-full md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full"></div>
                <div className="md:w-32 w-full md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1"></div>
            </div>

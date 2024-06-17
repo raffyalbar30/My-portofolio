@@ -5,7 +5,7 @@ const Herosection = () => {
    
     return (
     <>
-    <div className='flex justify-center mt-28 laptop:mt-32 tablet:mt-44 '>
+    <div className='flex justify-center mt-28 laptop:mt-32 iphone:mt-44 tablet:mt-44 '>
        <div className='flex gap-x-12 handphone:flex-wrap '>
           <img src="/public/img/Group1.png" alt="" className='w-[70px] laptop:w-[350px] handphone:w-[250px] handphone:mx-auto ' />
              <div className='mt-14 handphone:mx-auto handphone:mt-8'>
@@ -17,7 +17,7 @@ const Herosection = () => {
              </div>
        </div>
   </div>
-   <div className=' laptop:backdrop-blur-sm tablet:mt-8 backdrop-blur-md laptop:mt-16  mt-12  h-28 -z-10'></div>
+   <div className=' laptop:backdrop-blur-sm iphone-xr:mt-52 iphone-14:mt-60 iphone:mt-44 tablet:mt-8 backdrop-blur-md laptop:mt-16  mt-12  h-28 -z-10'></div>
     </>
 
 

@@ -32,7 +32,7 @@ const Profil = () => {
          <div className="md:w-32 md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1 w-auto"></div>
         </div>
           <div className='absolute right-2 mt-28 laptop:mr-4 laptop:hidden'>
-             <img src="/public/img/aboutme.png" alt="" className='w-44 laptop:w-[300px]'/>
+             <img src="/public/img/aboutme.png" alt="" className='w-44 laptop:w-[300px] iphone:w-36'/>
           </div>
          </div>
           <div className='flex justify-center laptop:items-center laptop:mt-4 mt-12 z-20'>
