@@ -1,10 +1,12 @@
 import React from 'react';
 import { FaCalendarAlt } from "react-icons/fa";
 import ContainerCards from '../Component/utilitis/Container-card';
+import Navbar from '../Component/Navbar/Navbar';
 
 const ViewDetail = () => {
     return (
         <>
+         <Navbar></Navbar>
         <div className='w-full backdrop-blur-lg bg-slate-100 opacity-30 h-24'> </div>
         <div className=' w-full absolute bg-zinc-800 rounded-t-lg z-10'>
              <div className='ml-12 mr-12'>
@@ -26,7 +28,8 @@ const ViewDetail = () => {
                </ContainerCards>
              </div>
              <div className='mt-8'>
-                <p>Descriptions</p>
+                <p className='font-sans font-semibold text-2xl'>Descriptions</p>
+                <p className='font-sans text-gray-400 text-left'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aperiam hic, ea rerum vitae assumenda debitis earum aspernatur corporis officia omnis cumque possimus totam illo, accusantium ex quod voluptates quaerat.</p>
              </div>
              </div> 
         </div>
