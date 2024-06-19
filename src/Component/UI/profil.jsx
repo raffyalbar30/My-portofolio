@@ -26,7 +26,7 @@ const Profil = () => {
   <>
 
     <div className=' w-full flex justify-center'>
-        <div className='cursor-pointer pb-4 laptop:mt-4 mt-12'>
+        <div className='cursor-pointer pb-4 laptop:mt-16 mt-12'>
          <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2'>Profil 👨‍💻</p>
          <div className="md:w-32 md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full w-auto"></div>
          <div className="md:w-32 md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1 w-auto"></div>

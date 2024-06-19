@@ -17,7 +17,7 @@ const Herosection = () => {
              </div>
        </div>
   </div>
-   <div className=' laptop:backdrop-blur-sm iphone-xr:mt-52 iphone-14:mt-60 iphone:mt-44 tablet:mt-8 backdrop-blur-md laptop:mt-16  mt-12  h-28 -z-10'></div>
+   <div className=' laptop:backdrop-blur-sm iphone-xr:mt-52 iphone-14:mt-60 iphone:mt-44 tablet:mt-8 backdrop-blur-md laptop:mt-12 mt-12  h-28 -z-10'></div>
     </>
 
 

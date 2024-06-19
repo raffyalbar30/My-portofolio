@@ -28,11 +28,36 @@ const ViewDetail = () => {
                </ContainerCards>
              </div>
              <div className='mt-8'>
+                <p className='font-sans font-semibold text-2xl'>Tech stack</p>
+                <div className='flex justify-center laptop:justify-normal gap-x-4 pt-4'>
+                                  <img src="/public/Icons/html.webp" alt="" className='w-[50px]' />
+                                  <img src="/public/Icons/css.webp" alt="" className='w-[50px]' />
+                                  <img src="/public/Icons/javascript.webp" alt="" className='w-[50px]' />
+                                  <img src="/public/Icons/sass.svg" alt="" className='w-[50px]' />
+                                  <img src="/public/Icons/bootstrap.webp" alt="" className='w-[50px]' />
+                                  </div>
+             </div>
+              <div className='laptop:flex laptop:justify-between'>
+             <div className='mt-8'>
                 <p className='font-sans font-semibold text-2xl'>Descriptions</p>
-                <p className='font-sans text-gray-400 text-left'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aperiam hic, ea rerum vitae assumenda debitis earum aspernatur corporis officia omnis cumque possimus totam illo, accusantium ex quod voluptates quaerat.</p>
+                <p className='font-sans text-gray-400 laptop:text-left text-justify'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aperiam hic, ea rerum vitae assumenda debitis earum aspernatur corporis officia omnis cumque possimus totam illo, accusantium ex quod voluptates quaerat. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi adipisci quisquam deleniti dolores optio quis numquam architecto similique, placeat iste ex autem minus aliquam eaque animi id illum itaque quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste consectetur natus perspiciatis error, pariatur voluptates aut?</p>
+             </div>
+               <div className='mr-2 border p-8 rounded-md mt-4'>
+                    <div className='text-center mx-auto border w-48 py-2 rounded-md'>
+                      <a href="" className='text-sm'>Visite online site</a>
+                    </div>
+                    <div className='text-center mx-auto border w-48 py-2 mt-2 rounded-md'>
+                      <a href="" className='text-sm'>Visite github repository</a>
+                    </div>
+                    <div className='text-center mx-auto border w-48 py-2 mt-2 rounded-md'>
+                      <a href="" className='text-sm'>follow my repository</a>
+                    </div>
+               </div>
+              </div>
+             
              </div>
              </div> 
-        </div>
+ 
         </>
     );
 }
