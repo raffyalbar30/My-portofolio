@@ -5,7 +5,8 @@ import {
   useMotionValue,
   useSpring,
 } from "framer-motion";
-import ContainProject from "./Contain-project";
+import ContainProject from "./Container-projects";
+
 
 const ROTATION_RANGE = 32.5;
 const HALF_ROTATION_RANGE = 32.5 / 2;

@@ -1,6 +1,8 @@
 import React from 'react';
 import Skills from '../UI/Skills';
 import Projects from '../UI/Projects';
+import Certificates from '../UI/Certificates';
+
 
 const Background = () => {
     return (
@@ -18,6 +20,7 @@ const Background = () => {
            <img src="/public/img/dark-layered-wave.svg" alt="" />
           </div>
 
+          <Certificates></Certificates>
         </div>
           </div>
         </>

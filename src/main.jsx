@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Routes } from 'react-router-dom';
-import ViewDetail from './pages/View_detail.jsx';
+import Projectcoffeeshop from './pages/Project._coffe_shop.jsx'
 
 
 
@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
        <Router>
        <Routes>
        <Route path="/" element={<App />}/>
-       <Route path="/project/detail" element={<ViewDetail />} />
+       <Route path="/project/coffeshop" element={<Projectcoffeeshop />} />
        </Routes>
        </Router>
   </React.StrictMode>,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { SiInstagram, SiGithub, SiLinkedin } from "react-icons/si"
 import ContainerCards from '../utilitis/Container-card';
+import { FaDownload } from "react-icons/fa6";
 
 const Profil = () => {
 
@@ -59,8 +60,8 @@ const Profil = () => {
                             })
                             }
                         </div>
-                        <div className='px-4 pt-4 laptop:pt-4 handphone:ml-2 laptop:px-20'>
-                           <button className='laptop:px-20 py-2 tablet:py-4 rounded-md border handphone:px-24'>💼 Download CV</button>
+                        <div className='px-4 pt-4 laptop:pt-4 handphone:ml-2 laptop:px-20 group flex'>
+                           <a className='laptop:px-20 py-2 tablet:py-4 rounded-md border handphone:px-24 cursor-pointer flex items-center gap-x-2 group-hover:scale-110 duration-200 transition  !border-purple-400  hover:bg-indigo-500/10'>💼 Download CV <span className='opacity-0 group-hover:opacity-100 '> <FaDownload /></span></a>
                         </div>
                 </div>
                 <div className='p-4 mr-8 opacity-0 laptop:opacity-100 laptop:static absolute'>
@@ -70,9 +71,9 @@ const Profil = () => {
                             style={{
                               transform: "translateZ(50px)",
                               transformStyle: "preserve-3d",
-                             }}
+                             }} 
                            alt="" className='rounded-md ' />
-                        </ContainerCards>
+                        </ContainerCards> 
                     </div>
                 </div>
              </div>

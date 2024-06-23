@@ -14,6 +14,7 @@ function App() {
         <Navbar></Navbar>
         <Herosection></Herosection>
         <Menu></Menu>
+       
     </>
   )
 }

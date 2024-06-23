@@ -1,21 +1,19 @@
 import React from 'react';
 import { FaCalendarAlt } from "react-icons/fa";
 import ContainerCards from '../Component/utilitis/Container-card';
-import Navbar from '../Component/Navbar/Navbar';
 import { TbWorld } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import ViewDetail from '../Component/utilitis/View_Detail';
 
 
 
 
-const ViewDetail = () => {
+const Projectcoffeeshop = () => {
     return (
-        <>
-         <Navbar></Navbar>
-        <div className='w-full backdrop-blur-lg bg-slate-100 opacity-30 h-24'> </div>
-        <div className=' w-full absolute bg-zinc-800 rounded-t-lg z-10'>
+        <> 
+         <ViewDetail>
              <div className='ml-12 mr-12'>
                <div className='flex items-center gap-x-4 cursor-pointer group'>
                <span className='mt-12 text-2xl group-hover:scale-110'> <FaArrowLeftLong /></span>
@@ -34,14 +32,19 @@ const ViewDetail = () => {
                                 transformStyle: "preserve-3d",
                             }}
                             className=" inset-4 grid w-full place-content-center rounded-xl shadow-lg "
-                            src="/public/projects/coffe2.jpeg" />
+                            src="/public/projects/Coffe-shop.png" />
                </ContainerCards>
              </div>
              <div className='mt-8'>
                 <p className='font-sans font-semibold text-2xl'>Tech stack</p>
-              
-                                  <img src="/public/Icons/sass.svg" alt="" className='w-[50px] mt-4' />
-                                  <img src="/public/Icons/bootstrap.webp" alt="" className='w-[50px] mt-4' />
+                <div className='grid grid-cols-4'>
+               
+                
+             
+                <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
+                     <img src="/public/Icons/bootstrap.webp" alt="" className='w-[60px]' />
+                    </div>
+                </div>
                     
              </div>
               <div className='laptop:flex laptop:justify-between'>
@@ -66,10 +69,9 @@ const ViewDetail = () => {
               </div>
              
              </div>
-             </div> 
- 
+        </ViewDetail>
         </>
     );
 }
 
-export default ViewDetail;
+export default Projectcoffeeshop;
