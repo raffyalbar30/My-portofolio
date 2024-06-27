@@ -1,5 +1,6 @@
 import React from 'react';
 import { SiInstagram, SiGithub, SiLinkedin } from "react-icons/si"
+import { FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
      const sosial = [
@@ -18,19 +19,25 @@ const Footer = () => {
            label: "Github",
            icons: SiInstagram
          },
+         {
+          url : "https://www.instagram.com/raffy_samaa",
+          label: "whatsapp",
+          icons: FaWhatsapp
+        },
       
       ];
     return (
         <div className='bg-transparent w-full'>
            <div className='w-full border border-purple-950'></div>
-                  <div className='flex justify-center laptop:gap-x-6 gap-x-2 mt-4 laptop:mt-8'>
-                       <p className=' font-sans laptop:text-2xl  text-white/60 font-semibold '>Profil</p>
-                       <p className=' font-sans laptop:text-2xl  text-white/60 font-semibold'>Skils</p>
-                       <p className=' font-sans laptop:text-2xl  text-white/60 font-semibold'>Experince</p>
-                       <p className=' font-sans laptop:text-2xl  text-white/60 font-semibold'>Contact</p>
-                       <p className=' font-sans laptop:text-2xl  text-white/60 font-semibold'>Certificate</p>
+                  <div className='flex justify-center laptop:gap-x-12 gap-x-2 mt-4 laptop:mt-8'>
+                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold '>Profil</p>
+                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold'>Skils</p>
+                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold'>Experince</p>
+                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold'>Contact</p>
+                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold'>Certificate</p>
+                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold'>About</p>
                   </div>
-                       <div className='flex gap-x-4 justify-center mt-4'>
+                       <div className='flex gap-x-4 justify-center mt-8'>
                        {
                         sosial.map((item, i)=>{
                             const Icon = item.icons
