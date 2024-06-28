@@ -11,7 +11,7 @@ const Skills = () => {
         </div>
           </div>
           <div className='flex justify-center '>
-            <div className='laptop:grid laptop:ml-0 ml-12 mt-12 laptop:grid-cols-5 gap-x-8 '>
+            <div className='laptop:grid handphone:grid min-h-screen handphone:grid-cols-3 tablet:grid tablet:grid-cols-4 laptop:ml-0 ml-12 handphone:ml-2 handphone:mr-2 mt-12 laptop:grid-cols-5 gap-x-8 '>
               <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
               <img src="/public/icons/html.webp" alt="" className=' laptop:w-[100px] w-[50px] mx-auto ' />
               <span className='bg-indigo-100/30 rounded-sm flex justify-center mt-2 opacity-0 group-hover:opacity-100'>Html</span>
