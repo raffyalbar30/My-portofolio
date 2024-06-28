@@ -11,6 +11,7 @@ module.exports = {
       'iphone-xr' : '414px',
       'iphone-14' : '430px',
       'tablet': '640px',
+      'ipad'  : '768px',
       // => @media (min-width: 640px) { ... }
 
       'laptop': '1024px',

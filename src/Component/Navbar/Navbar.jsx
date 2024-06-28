@@ -33,7 +33,7 @@ import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '
                 <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Profil</h1>
                 <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Skils</h1>
                 <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Experince</h1>
-                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Contact</h1>
+                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Certifity</h1>
             </div>
             
 

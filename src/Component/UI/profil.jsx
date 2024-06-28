@@ -27,12 +27,12 @@ const Profil = () => {
   <>
 
     <div className=' w-full flex justify-center'>
-        <div className='cursor-pointer pb-4 laptop:mt-4 mt-12'>
+        <div className='cursor-pointer pb-4 laptop:mt-4'>
          <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2'>Profil 👨‍💻</p>
          <div className="md:w-32 md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full w-auto"></div>
          <div className="md:w-32 md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1 w-auto"></div>
         </div>
-          <div className='absolute right-2 mt-28 laptop:mr-4 laptop:hidden'>
+          <div className='absolute right-2 tablet:mt-12 laptop:mr-4 laptop:hidden'>
              <img src="/public/img/aboutme.png" alt="" className='w-44 laptop:w-[300px] iphone:w-36'/>
           </div>
          </div>
