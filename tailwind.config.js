@@ -5,21 +5,21 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      'handphone' : '375px',
-      'iphone' : '390px',
-      'iphone-xr' : '414px',
-      'iphone-14' : '430px',
-      'tablet': '640px',
-      'ipad'  : '768px',
-      // => @media (min-width: 640px) { ... }
+    // screens: {
+    //   'handphone' : '375px',
+    //   'iphone' : '390px',
+    //   'iphone-xr' : '414px',
+    //   'iphone-14' : '430px',
+    //   'tablet': '640px',
+    //   'ipad'  : '768px',
+    //   // => @media (min-width: 640px) { ... }
 
-      'laptop': '1024px',
-      // => @media (min-width: 1024px) { ... }
+    //   'laptop': '1024px',
+    //   // => @media (min-width: 1024px) { ... }
 
-      'desktop': '1280px',
-      // => @media (min-width: 1280px) { ... }
-    },
+    //   'desktop': '1280px',
+    //   // => @media (min-width: 1280px) { ... }
+    // },
 
     extend: {
       animation: {

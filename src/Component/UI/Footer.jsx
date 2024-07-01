@@ -29,13 +29,13 @@ const Footer = () => {
     return (
         <div className='bg-transparent w-full'>
            <div className='w-full border border-purple-950'></div>
-                  <div className='flex justify-center laptop:gap-x-12 gap-x-2 mt-4 laptop:mt-8 cursor-pointer'>
-                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold hover:underline underline-offset-8 decoration-purple-600'>Profil</p>
+                  <div className='flex justify-center lg:gap-x-12 gap-x-2 mt-4 lg:mt-8 cursor-pointer '>
+                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold hover:underline underline-offset-8 ml-4 decoration-purple-600'>Profil</p>
                        <p className=' font-sans laptop:text-xl  text-white/60 font-semibold hover:underline underline-offset-8 decoration-purple-600 '>Skils</p>
                        <p className=' font-sans laptop:text-xl  text-white/60 font-semibold hover:underline underline-offset-8 decoration-purple-600 '>Experince</p>
                        <p className=' font-sans laptop:text-xl  text-white/60 font-semibold hover:underline underline-offset-8 decoration-purple-600 '>Contact</p>
                        <p className=' font-sans laptop:text-xl  text-white/60 font-semibold hover:underline underline-offset-8 decoration-purple-600 '>Certificate</p>
-                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold hover:underline underline-offset-8 decoration-purple-600 '>About</p>
+                       <p className=' font-sans laptop:text-xl  text-white/60 font-semibold hover:underline underline-offset-8 mr-4 decoration-purple-600 '>About</p>
                   </div>
                        <div className='flex gap-x-4 justify-center mt-8'>
                        {

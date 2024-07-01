@@ -62,7 +62,7 @@ const ContainerCards = ({children}) => {
     >
       {children}
     </motion.div>
-    <ContainProject></ContainProject>
+    <ContainProject ></ContainProject>
     </div>
     
     </>
