@@ -9,8 +9,8 @@ const Herosection = () => {
     <>
     <div className='flex justify-center items-center sm:mt-2 md:mt-24'>
        <div className='flex gap-x-12 flex-wrap mt-8 md:justify-between'>
-          <img src="/public/Group1.png" alt="" className='w-[300px] lg:w-[300px] sm:w-[250px] mx-auto' />
-             <div className='mx-auto mt-6'>
+          <img src="/public/Group1.png" alt="" className='w-[300px] lg:w-[300px] sm:w-[250px] md:w-[290px] mx-auto' />
+             <div className='mx-auto mt-6 md:mt-12'>
                <h1 className='lg:text-5xl md:text-5xl font-bold sm:text-4xl text-4xl '>Nice to meat you <span>👋</span></h1>
                 <div className='pt-2'>
                    <h1 className='lg:text-8xl md:text-5xl font-bold sm:ml-4 ml-2 md:ml-0 sm:text-3xl text-4xl pb-2'>M.RaffyAlbar</h1>
