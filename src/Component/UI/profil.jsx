@@ -55,7 +55,7 @@ const Profil = () => {
                                 key={i}
                                 href={item.url}
                                 aria-label={item.label}>
-                                <Icon className='w-8 h-8 md:h-12 md:w-12 hover:scale-125 transition-all' />
+                                <Icon className='w-8 h-8 gap-x-4 md:h-12 md:w-12 hover:scale-125 transition-all' />
                                 </a>
                             )
                             })
@@ -66,7 +66,7 @@ const Profil = () => {
                         </div>
                 </div>
                 <div className='p-4 mr-8 opacity-0 lg:opacity-100 lg:static absolute'>
-                        <div className='laptop:w-[350px]'>
+                        <div className='lg:w-[400px]'>
                         <ContainerCards>
                             <img src="/public/img/Group2.png"
                             style={{

@@ -12,8 +12,8 @@ const Projects = () => {
         <div className='flex justify-center mt-8 relative z-20'>
            <div className='cursor-pointer lg:pt-12 pt-8'>
              <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2 lg:pb-4'>Experince👨‍💻</p>
-              <div className="md:w-32 w-auto md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full"></div>
-               <div className="md:w-32 w-auto md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1 "></div>
+              <div className="md:w-32 w-full md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full lg:w-auto"></div>
+               <div className="md:w-32 w-full md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1 lg:w-auto "></div>
            </div>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-6 gap-1 p-4 mb-4 mt-10 ">
@@ -41,7 +41,7 @@ const Projects = () => {
                                      and Redux Toolkit for handling payment, cart, 
                                      and authentication features. Additionally, for the REST API, we used Laravel.
                                      and Redux Toolkit for handling payments and cart features authtentication features.</p>
-                                  <div className='flex justify-center lg:justify-normal gap-x-4 pt-4'>
+                                  <div className='flex justify-center  gap-x-4 pt-4'>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
                                   <img src="/public/Icons/react.webp" alt="" className='w-[60px]' />
                                   </div>
@@ -86,7 +86,7 @@ const Projects = () => {
                                      using JavaScript, Sass, and Bootstrap, while the back-end was handled using PHP by my team,
                                      In this project, I gained a lot of experience, especially in communicating with seniors and collaborating within a team to develop the structure
                                       of the application especially since this was my first project.</p>
-                                  <div className='flex justify-center lg:justify-normal gap-x-2 pt-4'>
+                                  <div className='flex justify-center  gap-x-2 pt-4'>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
                                   <img src="/public/Icons/html.webp" alt="" className='w-[60px]' />
                                   </div>

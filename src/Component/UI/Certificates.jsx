@@ -41,12 +41,12 @@ const datas = [
   
     return (
         <>
-        <div className='border laptop:w-[1200px] h-auto rounded-sm p-2 border-zinc-600'>
+        <div className='border lg:w-[1200px] h-auto rounded-sm p-2 border-zinc-600'>
        <div className='p-8'>
           <div>
            <p className='text-white/60 mt-4 text-xl mb-4'>Reacent Update Certifity</p>
            {
-           <div className='laptop:flex laptop:justify-between'>
+           <div className='lg:flex lg:justify-between'>
             <div className='mt-4 mr-2 mb-2'>
             <ul className='mt-4'>
                {
@@ -70,7 +70,7 @@ const datas = [
                }
             </ul>
             </div>
-            <div className='divide-y laptop:divide-y divide-dashed md:divide-solid border border-zinc-600 mb-2'></div>
+            <div className='divide-y lg:divide-y divide-dashed md:divide-solid border border-zinc-600 mb-2'></div>
             <div className='w-full mb-2 mr-2 ml-2 mt-2'> 
                  {
                     <div key={selected.id_data}>
@@ -80,7 +80,7 @@ const datas = [
                                    transform: "translateZ(50px)",
                                    transformStyle: "preserve-3d",
                                }}
-                               src={selected.Image} alt="" className='w-full laptop:h-[400px] iphone-14:h-[180px]' />
+                               src={selected.Image} alt="" className='w-full lg:h-[400px] ' />
                   </ContainerCards>
                     </div>
                  }
