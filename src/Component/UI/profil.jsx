@@ -26,7 +26,7 @@ const Profil = () => {
     return (
   <>
   <div className=" w-full h-12 backdrop-blur-sm absolute mt-7 "></div>
-  <div className='bg-black mt-12'>
+  <div className='bg-black h-screen z-0 mt-12'>
     <div className='flex justify-center'>
         <div className='cursor-pointer pb-4 mt-12'>
          <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2'>Profil 👨‍💻</p>
