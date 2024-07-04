@@ -7,7 +7,7 @@ const Herosection = () => {
    
     return (
     <>
-    <div className='flex justify-center items-center sm:mt-2 md:mt-12'>
+    <div className='flex justify-center items-center sm:mt-2 md:mt-12 mb-12'>
        <div className='flex gap-x-12 flex-wrap mt-8 md:justify-between'>
           <img src="/public/img/Group1.png" alt="" className='w-[300px] lg:w-[300px] sm:w-[250px] md:w-[200px] mx-auto' />
              <div className='mx-auto mt-6 md:mt-12'>

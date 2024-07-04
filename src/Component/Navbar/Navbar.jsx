@@ -29,7 +29,7 @@ import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '
                <p>Raffy Albar</p>
            </div>
          
-            <div className={`lg:flex mx-auto md:flex md:justify-center  md:items-center md:gap-5 md:rounded-full md:bg-purple-500 md:px-12 lg:py-8 md:py-8 md:text-2xl lg:justify-center lg:items-center lg:gap-5 lg:rounded-full lg:bg-purple-500  items-center opacity-0 lg:opacity-100 md:opacity-100 mt-4 lg:px-12 lg:py-4`}>
+            <div className={`lg:flex mx-auto md:flex md:justify-center  md:items-center md:gap-5 md:rounded-full md:bg-purple-500 md:px-12 lg:py-8 md:py-8 md:text-2xl lg:justify-center lg:items-center lg:gap-5 lg:rounded-full lg:bg-purple-500  items-center opacity-0 lg:opacity-100 md:opacity-100 mt-4 lg:px-12 `}>
                 <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Profil</h1>
                 <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Skils</h1>
                 <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Experince</h1>
@@ -38,8 +38,8 @@ import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '
             
 
             <div id="navbar" className='mr-4 mt-4 opacity-100 lg:opacity-0 md:opacity-0 group'>
-                 <div className='border-2 p-4 rounded-md border-gray-700'>
-                 <CiMenuFries className='text-2xl text-white'
+                 <div className='border-2 p-4 rounded-md border-slate-300'>
+                 <CiMenuFries className='text-2xl text-slate-200'
                   onClick={open}
                   ></CiMenuFries>
                  </div>
@@ -59,7 +59,7 @@ import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '
               >
                 <DialogPanel className="w-full max-w-md rounded-xl top-0 bg-white/20 p-6 backdrop-blur-2xl">
                   <DialogTitle as="h3" className="text-base/7 font-medium text-white">
-                  <div className='border p-4 rounded-md opacity-100  top-0 float-right z-10 '>
+                  <div className='border border-slate-300 p-4 rounded-md opacity-100  top-0 float-right z-10 '>
                     <IoIosClose className='text-2xl  '
                       onClick={close} />
                  </div> 
