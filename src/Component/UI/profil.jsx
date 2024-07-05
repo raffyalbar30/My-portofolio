@@ -3,8 +3,8 @@ import { SiInstagram, SiGithub, SiLinkedin } from "react-icons/si"
 import ContainerCards from '../utilitis/Container-card';
 import { FaDownload } from "react-icons/fa6";
 
-const Profil = () => {
 
+const Profil = ({profil}) => {
   const sosial = [
     {
          url : "https://www.linkedin.com/in/mohammadraffyalbar/",
@@ -27,7 +27,7 @@ const Profil = () => {
   <>
   <div className='bg-black mb-12 rounded-t-lg'>
     <div className='flex justify-center'>
-        <div className='cursor-pointer pb-4 mt-12 lg:mt-24'>
+        <div ref={profil} className='cursor-pointer pb-4 mt-12 lg:mt-24'>
          <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2'>Profil 👨‍💻</p>
          <div className="md:w-32 md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full w-auto"></div>
          <div className="md:w-32 md:h-[6px] h-1 bg-purple-200 rounded-full translate-x-1 w-auto"></div>

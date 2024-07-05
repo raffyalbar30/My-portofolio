@@ -6,10 +6,10 @@ import ContainProject from '../utilitis/Container-projects';
 
 
 
-const Projects = () => {
+const Projects = ({experince}) => {
     return (
    <>
-        <div className='flex justify-center mt-8 relative z-20'>
+        <div ref={experince} className='flex justify-center mt-8 relative '>
            <div className='cursor-pointer lg:pt-12 pt-8'>
              <p className='text-white font-bold hover:scale-[1.02] text-center text-4xl pb-2 lg:pb-4'>Experince👨‍💻</p>
               <div className="md:w-32 w-full md:h-[6px] h-1 bg-gradient-to-l from-purple-400 via-purple-300 to-purple-500 -translate-x-1 rounded-full lg:w-auto"></div>

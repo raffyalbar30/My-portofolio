@@ -5,7 +5,7 @@ import { IoIosClose } from "react-icons/io";
 import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react'
 
  
- const Navbar = () => {
+ const Navbar = ({Handlenavigation, Handleskils, Handleexperince, Handlecertify}) => {
 
    const [isOpen, setIsOpen] = useState(false);
    
@@ -30,10 +30,10 @@ import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '
            </div>
          
             <div className={`lg:flex mx-auto md:flex md:justify-center  md:items-center md:gap-5 md:rounded-full md:bg-purple-500 md:px-12 lg:py-8 md:py-8 md:text-2xl lg:justify-center lg:items-center lg:gap-5 lg:rounded-full lg:bg-purple-500  items-center opacity-0 lg:opacity-100 md:opacity-100 mt-4 lg:px-12 `}>
-                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Profil</h1>
-                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Skils</h1>
-                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Experince</h1>
-                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8'>Certifity</h1>
+                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8' onClick={Handlenavigation}>Profil</h1>
+                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8' onClick={Handleskils}>Skils</h1>
+                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8' onClick={Handleexperince}>Experince</h1>
+                <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8' onClick={Handlecertify}>Certifity</h1>
             </div>
             
 
@@ -64,10 +64,10 @@ import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '
                       onClick={close} />
                  </div> 
                   </DialogTitle>
-                     <h1 className='font-sans text-2xl  hover:underline underline-offset-8 pt-16'>Profil</h1>
-                     <h1 className='font-sans text-2xl  hover:underline underline-offset-8 mt-2'>Skils</h1>
-                     <h1 className='font-sans text-2xl  hover:underline underline-offset-8 mt-2'>Experince</h1>
-                     <h1 className='font-sans text-2xl  hover:underline underline-offset-8 mt-2'>Contact</h1>
+                     <h1 className='font-sans text-2xl  hover:underline underline-offset-8 pt-16' onClick={Handlenavigation}>Profil</h1>
+                     <h1 className='font-sans text-2xl  hover:underline underline-offset-8 mt-2'  onClick={Handleskils}>Skils</h1>
+                     <h1 className='font-sans text-2xl  hover:underline underline-offset-8 mt-2'  onClick={Handleexperince}>Experince</h1>
+                     <h1 className='font-sans text-2xl  hover:underline underline-offset-8 mt-2'  onClick={Handlecertify}>Certifity</h1>
                 </DialogPanel>
               </TransitionChild>
             </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import Background from "../Fragments/Background";
-const Menu = () => {
+const Menu = ({profil, skils, experince, Certify}) => {
   return (
     <>
-        <Background></Background>
+        <Background profil={profil} skils={skils} experince={experince} Certify={Certify}></Background>
     </>
   );
 };
