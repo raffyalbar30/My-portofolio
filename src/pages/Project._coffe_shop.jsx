@@ -7,7 +7,11 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import ViewDetail from '../Component/utilitis/View_Detail';
 import Footer from '../Component/UI/Footer';
-
+import Coffeshop from "/img/Coffe-shop.png";
+import IconsReact from "/img/react.webp";
+import IconsTailwind from "/img/tailwind.webp"
+import IconsRedux from "/img/redux.svg";
+import IconsJavascript from "/img/javascript.webp";
 
 
 
@@ -34,7 +38,7 @@ const Projectcoffeeshop = () => {
                                 transformStyle: "preserve-3d",
                             }}
                             className=" inset-4 grid w-full place-content-center rounded-xl shadow-lg "
-                            src="/public/projects/Coffe-shop.png" />
+                            src={Coffeshop} />
                </ContainerCards>
              </div>
              
@@ -48,16 +52,16 @@ const Projectcoffeeshop = () => {
               <div className='flex'>
                  <div className='grid lg:grid-cols-6 grid-cols-5 gap-x-4'>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
-                        <img src="/public/Icons/react.webp" alt="" className='w-[80px]'/>
+                        <img src={IconsReact} alt="" className='w-[80px]'/>
                     </div>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
-                        <img src="/public/Icons/tailwind.webp" alt="" className='w-[80px]'/>
+                        <img src={IconsTailwind} alt="" className='w-[80px]'/>
                     </div>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
-                        <img src="/public/Icons/redux.svg" alt="" className='w-[80px]'/>
+                        <img src={IconsReact} alt="" className='w-[80px]'/>
                     </div>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
-                        <img src="/public/Icons/javascript.webp" alt="" className='w-[80px]'/>
+                        <img src={IconsJavascript} alt="" className='w-[80px]'/>
                     </div>
                 </div>
               </div>
