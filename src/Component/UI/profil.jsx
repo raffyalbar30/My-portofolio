@@ -2,6 +2,7 @@ import React from 'react';
 import { SiInstagram, SiGithub, SiLinkedin } from "react-icons/si"
 import ContainerCards from '../utilitis/Container-card';
 import { FaDownload } from "react-icons/fa6";
+import profilImage from "/img/Group2.png";
 
 
 const Profil = ({profil}) => {
@@ -67,7 +68,7 @@ const Profil = ({profil}) => {
                 <div className='p-4 mr-8 opacity-0 lg:opacity-100 lg:static absolute'>
                         <div className='lg:w-[400px]'>
                         <ContainerCards>
-                            <img src="/public/img/Group2.png"
+                            <img src={profilImage}
                             style={{
                               transform: "translateZ(50px)",
                               transformStyle: "preserve-3d",

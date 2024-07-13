@@ -1,7 +1,16 @@
 import React from 'react';
 import ContainerCards from '../utilitis/Container-card';
 import ContainProject from '../utilitis/Container-projects';
-
+import Coffeshop from "projects/Coffe-shop.png";
+import PerintisCom from "projects/printis.png";
+import IconsReact from "Icons/react.webp";
+import IconsTailwind from "Icons/tailwind.webp"
+import IconsRedux from "Icons/redux.svg";
+import IconsJavascript from "Icons/javascript.webp";
+import IconsHtml from "Icons/html.webp";
+import IconsCss from "Icons/css.webp";
+import IconsBootstrap from "Icons/bootstrap.webp";
+import IconsSas from "Icons/sass.svg"
 
 
 
@@ -25,7 +34,7 @@ const Projects = ({experince}) => {
                                 transformStyle: "preserve-3d",
                             }}
                             className=" inset-4 grid w-full place-content-center rounded-xl shadow-lg blur-sm hover:blur-none"
-                            src="/public/projects/Coffe-shop.png" />
+                            src={Coffeshop} />
                     </ContainerCards>
                     <ContainProject>
                         <h1 className='lg:text-4xl text-white pt-5  mb-2 text-xl font-sans mt-4'>Coffeeshop UMKM Cilamaya</h1>
@@ -43,16 +52,16 @@ const Projects = ({experince}) => {
                                      and Redux Toolkit for handling payments and cart features authtentication features.</p>
                                   <div className='flex justify-center  gap-x-4 pt-4'>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/react.webp" alt="" className='w-[60px]' />
+                                  <img src={IconsReact} alt="" className='w-[60px]' />
                                   </div>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/tailwind.webp" alt="" className='w-[60px]' />
+                                  <img src={IconsTailwind} alt="" className='w-[60px]' />
                                   </div>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/redux.svg" alt="" className='w-[60px]' />
+                                  <img src={IconsRedux} alt="" className='w-[60px]' />
                                   </div>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/Javascript.webp" alt="" className='w-[60px]' />
+                                  <img src={IconsJavascript} alt="" className='w-[60px]' />
                                   </div>
                                   </div>
                                   <div className='flex justify-center mt-4'>
@@ -71,7 +80,7 @@ const Projects = ({experince}) => {
                                 transformStyle: "preserve-3d",
                             }}
                             className=" inset-4 grid w-full place-content-center rounded-xl shadow-lg blur-sm hover:blur-none"
-                            src="/public/projects/printis.png" />
+                            src={PerintisCom} />
                     </ContainerCards>
                     <ContainProject>
                         <h1 className='lg:text-4xl text-white pt-5  mb-2 text-xl font-sans mt-4'>Perintis Computer E-commerce</h1>
@@ -88,19 +97,19 @@ const Projects = ({experince}) => {
                                       of the application especially since this was my first project.</p>
                                   <div className='flex justify-center  gap-x-2 pt-4'>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/html.webp" alt="" className='w-[60px]' />
+                                  <img src={IconsHtml} alt="" className='w-[60px]' />
                                   </div>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/css.webp" alt="" className='w-[60px]' />
+                                  <img src={IconsCss} alt="" className='w-[60px]' />
                                   </div>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/javascript.webp" alt="" className='w-[60px]' />
+                                  <img src={IconsJavascript} alt="" className='w-[60px]' />
                                   </div>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/sass.svg" alt="" className='w-[60px]' />
+                                  <img src={IconsSas} alt="" className='w-[60px]' />
                                   </div>
                                   <div data-tooltip-content="Tailwind CSS" class="icon-tooltip transition-colors duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 dark:hover:bg-zinc-500/30">
-                                  <img src="/public/Icons/bootstrap.webp" alt="" className='w-[60px]' />
+                                  <img src={IconsBootstrap} alt="" className='w-[60px]' />
                                   </div>
                                   </div>
                                   <div className='flex justify-center mt-4'>
