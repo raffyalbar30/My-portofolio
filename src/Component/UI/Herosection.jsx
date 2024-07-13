@@ -1,5 +1,5 @@
 import React from 'react';
-
+import heroIcon from '/img/Group1.png';
 
 
 
@@ -9,7 +9,7 @@ const Herosection = () => {
     <>
     <div className='flex justify-center items-center sm:mt-2 md:mt-12 mb-12'>
        <div className='flex gap-x-12 flex-wrap mt-8 md:justify-between'>
-          <img src="/public/img/Group1.png" alt="" className='w-[300px] lg:w-[300px] sm:w-[250px] md:w-[200px] mx-auto' />
+          <img src={heroIcon} alt="" className='w-[300px] lg:w-[300px] sm:w-[250px] md:w-[200px] mx-auto' />
              <div className='mx-auto mt-6 md:mt-12'>
                <h1 className='lg:text-5xl md:text-5xl font-bold sm:text-4xl text-4xl '>Nice to meat you <span>👋</span></h1>
                 <div className='pt-2'>
