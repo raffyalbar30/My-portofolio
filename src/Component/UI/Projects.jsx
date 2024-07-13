@@ -1,16 +1,16 @@
 import React from 'react';
 import ContainerCards from '../utilitis/Container-card';
 import ContainProject from '../utilitis/Container-projects';
-import Coffeshop from "projects/Coffe-shop.png";
-import PerintisCom from "projects/printis.png";
-import IconsReact from "Icons/react.webp";
-import IconsTailwind from "Icons/tailwind.webp"
-import IconsRedux from "Icons/redux.svg";
-import IconsJavascript from "Icons/javascript.webp";
-import IconsHtml from "Icons/html.webp";
-import IconsCss from "Icons/css.webp";
-import IconsBootstrap from "Icons/bootstrap.webp";
-import IconsSas from "Icons/sass.svg"
+import Coffeshop from "/img/Coffe-shop.png";
+import PerintisCom from "/img/printis.png";
+import IconsReact from "/img/react.webp";
+import IconsTailwind from "/img/tailwind.webp"
+import IconsRedux from "/img/redux.svg";
+import IconsJavascript from "/img/javascript.webp";
+import IconsHtml from "/img/html.webp";
+import IconsCss from "/img/css.webp";
+import IconsBootstrap from "/img/bootstrap.webp";
+import IconsSas from "/img/sass.svg"
 
 
 
@@ -113,7 +113,7 @@ const Projects = ({experince}) => {
                                   </div>
                                   </div>
                                   <div className='flex justify-center mt-4'>
-                                  <a class=" uppercase text-xs font-bold group rounded text-center transition  relative !text-purple-400 mt-2 flex w-full items-center justify-center gap-2 self-start lg:px-32 px-4 py-3 lg:w-max border !border-purple-400  hover:bg-indigo-500/10" target="_self" href="/projects/your-anime-list"> <span class="translate-x-3.5 transition-transform duration-200 group-hover:translate-x-0">See Project</span><span class="relative -translate-x-4 text-lg opacity-0 transition duration-200 group-hover:translate-x-0 group-hover:opacity-100"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="text-purple-400" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path></svg></span> </a>
+                                  <a class=" uppercase text-xs font-bold group rounded text-center transition  relative !text-purple-400 mt-2 flex w-full items-center justify-center gap-2 self-start lg:px-32 px-4 py-3 lg:w-max border !border-purple-400  hover:bg-indigo-500/10" target="_self" href="//img/your-anime-list"> <span class="translate-x-3.5 transition-transform duration-200 group-hover:translate-x-0">See Project</span><span class="relative -translate-x-4 text-lg opacity-0 transition duration-200 group-hover:translate-x-0 group-hover:opacity-100"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="text-purple-400" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path></svg></span> </a>
                                   </div>
                               </div>
                     </ContainProject>

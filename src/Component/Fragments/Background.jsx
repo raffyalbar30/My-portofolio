@@ -4,7 +4,7 @@ import Projects from "../UI/Projects";
 import Footer from "../UI/Footer";
 import Certificates from "../UI/Certificates";
 import Profil from "../UI/profil";
-
+import layerd from "/img/dark-layered-wave.svg";
 
 const Background = ({profil, skils, experince, Certify}) => {
   return (
@@ -13,7 +13,7 @@ const Background = ({profil, skils, experince, Certify}) => {
       <div className="w-full absolute z-10 lg:mt-12 mt-0">
         <div className="w-full black backdrop-blur-sm lg:opacity-75 opacity-60 h-24 absolute lg:z-20 z-0"></div>
         <img
-          src="/public/img/dark-layered-wave.svg"
+          src={layerd}
           alt=""
           className="rotate-180 "
         />
@@ -25,7 +25,7 @@ const Background = ({profil, skils, experince, Certify}) => {
             <Projects experince={experince}></Projects>
           <div className="w-full absolute end-0 ">
             <img
-              src="/public/img/dark-layered-wave.svg"
+              src={layerd}
               alt=""
               className="mx-auto lg:mb-12 opacity-70"
             />
