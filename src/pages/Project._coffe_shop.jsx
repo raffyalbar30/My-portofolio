@@ -58,7 +58,7 @@ const Projectcoffeeshop = () => {
                         <img src={IconsTailwind} alt="" className='w-[80px]'/>
                     </div>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
-                        <img src={IconsReact} alt="" className='w-[80px]'/>
+                        <img src={IconsRedux} alt="" className='w-[80px]'/>
                     </div>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
                         <img src={IconsJavascript} alt="" className='w-[80px]'/>
