@@ -1,8 +1,7 @@
-
+import PythonCertify from "/img/pythoncertify.jpeg";
+import FlutterCertify from "/img/flutercertify.jpeg";
 import ContainerCards from '../utilitis/Container-card';
 import { useState } from 'react';
-import pythonceritify from "/img/pythoncertify.jpeg";
-import flutercertify from "/img/Certify/flutercertify.jpeg";
 
 const datas = [
    {
@@ -10,7 +9,7 @@ const datas = [
       label   : "International Certify",
       role    : "python",
       Detail  : "Lavel international quiz in sigma insitute of Engineering",
-      Image   :  pythonceritify,
+      Image   : PythonCertify,
       Years   : 2023
 
    },
@@ -19,7 +18,7 @@ const datas = [
     label   : "National Workshop Certify",
     role    : "Flutter mobile developer",
     Detail  : "Lavel national quiz workshop ",
-    Image   : flutercertify,
+    Image   :  FlutterCertify,
     Years   : 2024
 
  },
