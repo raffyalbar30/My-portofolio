@@ -20,9 +20,9 @@ const ProjectPerintis = () => {
                <span className='mt-12 text-2xl group-hover:scale-110'> <FaArrowLeftLong /></span>
                <p className='text-xl text-purple-500 pt-12 group-hover:hover:underline underline-offset-8'>Back to home page</p>
                </div>
-               <p className='text-4xl font-sans font-semibold pt-8'>Coffe shop UMKM Cilamaya</p>
-               <p className='text-2xl font-sans font-semibold pt-4'>E-commerce page use Rect js Tailwindcss Redux and another library</p>
-               <p className='pt-8 flex gap-x-2'><span className='text-xl'><FaCalendarAlt /></span>Januari 06 2024 - Maret 28 2024</p>
+               <p className='text-4xl font-sans font-semibold pt-8'>Perintis Computer Karawang</p>
+               <p className='text-2xl font-sans font-semibold pt-4'>E-commerce page computer using native</p>
+               <p className='pt-8 flex gap-x-2'><span className='text-xl'><FaCalendarAlt /></span>September 09 2023 - Januari 01 2024</p>
                <div className='w-full border mt-4'></div>
 
              <div className='lg:w-[1000px] mx-auto h-auto rounded-md bg-zinc-700 flex justify-center mt-12'>
@@ -39,7 +39,8 @@ const ProjectPerintis = () => {
              
              <div className='mt-8'>
                 <p className='font-sans font-semibold text-2xl'>Descriptions</p>
-                <p className='font-sans text-gray-400 laptop:text-left text-justify lg:mr-24 lg:text-[32x]'>The purpose of this project is to hone students' skills and understanding in the field of software engineering. Additionally, it serves as a portfolio piece in the technology industry. This project has been commercialized and is being used in a coffee shop in Cilamaya. In this project, I am responsible for being the project manager and front-end web developer. This project allowed me to explore my knowledge and skills in web development, particularly in software development and lifecycle, team collaboration, inter-division communication, performing slicing, consuming APIs from the back end, and managing project state logic. It sharpened both my soft skills and hard skills. The technologies used in this project include React.js for the structure, TailwindCSS for styling, and Redux Toolkit for state management, handling features such as the cart shop, checkout, and payment.</p>
+                <p className='font-sans text-gray-400 laptop:text-left text-justify lg:mr-24 lg:text-[32x]'>My first internship project truly tested my communication skills, integrity, and of course, my hard skills in coding and styling. The Perintis Computer Karawang website is a platform for managing computer sales and services. Here, I was responsible for refactoring and updating existing features such as authentication, payment, and the admin dashboard. This website was designed to make it easier for Perintis Computer employees to manage their sales. The technologies used for this website include native JavaScript, SASS, HTML, and CSS, while the backend uses PHP. At Perintis, I learned not only coding but also how to become a good computer technician and programmer.
+                 </p>
              </div>
              <div className='mt-8 flex justify-between items-center'>
                 <p className='font-sans font-semibold text-2xl'>Tech Stack</p>

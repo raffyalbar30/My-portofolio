@@ -42,7 +42,7 @@ const Projects = ({experince}) => {
             iconsfor : IconsSas,
             href: "/project/perintis"
   
-          }
+        }
     ];
 
     return (
