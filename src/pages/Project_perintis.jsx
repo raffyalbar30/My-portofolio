@@ -1,25 +1,20 @@
 import React from 'react';
-import { FaCalendarAlt } from "react-icons/fa";
-import ContainerCards from '../Component/utilitis/Container-card';
-import { TbWorld } from "react-icons/tb";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaArrowLeftLong } from "react-icons/fa6";
 import ViewDetail from '../Component/utilitis/View_Detail';
-import Footer from '../Component/UI/Footer';
-import Coffeshop from "/img/Coffe-shop.png";
-import IconsReact from "/img/react.webp";
-import IconsTailwind from "/img/tailwind.webp"
-import IconsRedux from "/img/redux.svg";
+import ContainerCards from '../Component/utilitis/Container-card';
+import { FaArrowLeftLong } from 'react-icons/fa6';
+import { FaCalendarAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
 import IconsJavascript from "/img/javascript.webp";
+import IconsHtml from "/img/html.webp";
+import IconsCss from "/img/css.webp";
+import IconsBootstrap from "/img/bootstrap.webp";
+import IconsSas from "/img/sass.svg"
+import PerintisCom from "/img/printis.png";
+import Footer from '../Component/UI/Footer';
+import { TbWorld } from 'react-icons/tb';
 
-
-
-
-const Projectcoffeeshop = () => {
+const ProjectPerintis = () => {
     return (
-        <> 
-         <ViewDetail>
+        <ViewDetail>
              <div className='mr-4 ml-4'>
                <div className='flex items-center gap-x-4 cursor-pointer mt-4'>
                <span className='mt-12 text-2xl group-hover:scale-110'> <FaArrowLeftLong /></span>
@@ -38,7 +33,7 @@ const Projectcoffeeshop = () => {
                                 transformStyle: "preserve-3d",
                             }}
                             className=" inset-4 grid w-full place-content-center rounded-xl shadow-lg "
-                            src={Coffeshop} />
+                            src={PerintisCom} />
                </ContainerCards>
              </div>
              
@@ -52,13 +47,16 @@ const Projectcoffeeshop = () => {
               <div className='flex'>
                  <div className='grid lg:grid-cols-6 grid-cols-5 gap-x-4'>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
-                        <img src={IconsReact} alt="" className='w-[80px]'/>
+                        <img src={IconsHtml} alt="" className='w-[80px]'/>
                     </div>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
-                        <img src={IconsTailwind} alt="" className='w-[80px]'/>
+                        <img src={IconsCss} alt="" className='w-[80px]'/>
                     </div>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
-                        <img src={IconsRedux} alt="" className='w-[80px]'/>
+                        <img src={IconsSas} alt="" className='w-[80px]'/>
+                    </div>
+                    <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
+                        <img src={IconsBootstrap} alt="" className='w-[80px]'/>
                     </div>
                     <div className='duration-200 group inline-block rounded-md p-3.5 hover:bg-indigo-200/30 w-[70px] dark:hover:bg-zinc-500/30'>
                         <img src={IconsJavascript} alt="" className='w-[80px]'/>
@@ -86,8 +84,7 @@ const Projectcoffeeshop = () => {
              <Footer></Footer>
             </div>
         </ViewDetail>
-        </>
     );
 }
 
-export default Projectcoffeeshop;
+export default ProjectPerintis;

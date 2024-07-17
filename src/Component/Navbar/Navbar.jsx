@@ -9,7 +9,6 @@ import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '
 
    const [isOpen, setIsOpen] = useState(false);
    
-   
    function open() {
      const navbar = document.getElementById("navbar");
      navbar.classList.add("hidden");
@@ -35,8 +34,6 @@ import {  Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '
                 <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8' onClick={Handleexperince}>Experince</h1>
                 <h1 className='font-sans laptop:text-2xl font-semibold hover:underline underline-offset-8' onClick={Handlecertify}>Certifity</h1>
             </div>
-            
-
             <div id="navbar" className='mr-4 mt-4 opacity-100 lg:opacity-0 md:opacity-0 group'>
                  <div className='border-2 p-4 rounded-md border-slate-300'>
                  <CiMenuFries className='text-2xl text-slate-200'
